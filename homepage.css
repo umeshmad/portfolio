@@ -143,15 +143,25 @@ body{
     margin-top:10px;
 }
 .button button{
-    background-color: rgb(54, 165, 54);
+    background: linear-gradient(135deg, #4a007f, #6f00a0, #c800b7);
+    box-shadow:
+        inset 0 0 35px 8px rgba(200, 0, 183, 0.6),
+        inset 0 0 45px 15px rgba(110, 0, 255, 0.5),
+        0 0 20px rgba(200, 0, 183, 0.4),
+        0 0 35px rgba(110, 0, 255, 0.3);
     padding:16px;
     font-size: 14px;
     font-weight: 900;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border:none;
     border-radius:8px;
-    box-shadow: 0px 5px 10px 0px rgba(211, 239, 162, 0.841);
     height: 48px; 
+}
+.button button:hover{
+    background: linear-gradient(135deg, #6e00ff 0%, #a100ff 50%, #ff00f7 100%);  
+    box-shadow: 0 4px 12px rgba(174, 0, 255, 0.3); 
+    transform: scale(1.1) translateY(-2px);
+    z-index:7;
 }
 .Social{
     display: flex;
@@ -167,6 +177,7 @@ body{
     display: flex;
     align-items: center;
 }
+
 
 .Social{
     display: flex;
@@ -187,6 +198,12 @@ body{
     width: 32px;
     height: 32px;
     object-fit: contain;
+}
+.Social a img:hover{
+    transform: scale(1.4) translateZ(20px);
+    z-index:8;
+   
+
 }
 .service{
     margin-left: 0px;
@@ -308,17 +325,16 @@ body{
     color:white;
 background: linear-gradient(
     145deg,
-    rgba(178, 102, 255, 0.25),  /* Soft purple */
-    rgba(100, 220, 255, 0.15),  /* Electric cyan */
-    rgba(255, 50, 150, 0.1),    /* Neon pink */
-    rgba(255, 255, 255, 0.02)   /* Faint white */
-);
+    rgba(178, 102, 255, 0.25),  
+    rgba(100, 220, 255, 0.15),  
+    rgba(255, 50, 150, 0.1),    
+    rgba(255, 255, 255, 0.02)  );
     border-radius:15px;
     display:inline-block;
     backdrop-filter:blur(20px);
  box-shadow:
-  inset 0 0 12px rgba(0, 255, 127, 0.4), /* Green */
-  inset 0 0 6px rgba(0, 212, 255, 0.3),  /* Blue */
+  inset 0 0 12px rgba(0, 255, 127, 0.4),
+  inset 0 0 6px rgba(0, 212, 255, 0.3),  
   0 0 20px rgba(0, 255, 127, 0.3),
   0 0 10px rgba(0, 212, 255, 0.2);
 }
@@ -329,6 +345,9 @@ background: linear-gradient(
     border-bottom: 1px solid gray;
     padding-bottom:8px;
 
+}
+.skill-card:hover{
+    transform:scale(1.1) translateY(-2px)
 }
 .skill-items li {
     padding: 4px 0;
