@@ -1,0 +1,37 @@
+/*
+.skill{
+    font-size:30px;
+    color:white;
+    margin-top:40px;
+    font-weight: 700;
+
+}
+.mi{
+    color:rgb(35, 217, 35);
+    margin-left:10px;
+
+}
+.skill-list{
+    color:white;
+    display: flex;
+    gap:30px;
+}
+.skill-list h2{
+    color:rgb(92, 234, 92);
+    text-align:center;
+}
+.skill-list p{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+.skill-list li{
+    text-decoration: none;
+    display:inline-block;
+    margin:8px;
+    padding:10px 5px 10px 5px;
+    border:2px solid rgba(138,43,226,0.4);
+    border-radius:20px;
+    backdrop-filter:blur(20px);
+    background: linear-gradient(135deg, rgba(0,212,255,0.3), rgba(0,255,255,0.1));
+}*/
+/* Skills Section Styling */
