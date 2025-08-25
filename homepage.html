@@ -11,13 +11,13 @@
          <div id="Port">Portfolio</div>
         
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <div class="content">
+    <div class="content" id="home">
         <div class="part1">
             <div class="name">
                     Umesh Maduwantha
@@ -49,7 +49,7 @@
         </div>
     </div>
    
-    <div class="about">
+    <div class="about" id="about">
         <div class="title">
             About <span class="ser">me</span>
         </div>
@@ -132,7 +132,7 @@
             </div>
     </div>
     
-    <div class="service">
+    <div class="service" id="service">
         <div class="title">
             My <span class="ser">Services</span>
         </div>
@@ -160,5 +160,41 @@
             </div>
         </div>
     </div>
-
-</div>
+    <div class="Myprojects">
+    <div class="skill">
+        My<span class="mi">Projects</span>
+    </div>
+    <div class="project-container">
+        <div class="project-item">
+            <img id="cal" src="original-6156222810e9f56ba72348eb997d741b.jpg">
+            <div class="project-desc">
+                <h3>Backlit Calculator</h3>
+                <p>Custom calculator with optimized 45x24 backlit display (1080 resolution). Fine-tuned brightness and contrast.</p>
+            </div>
+        </div>
+        <div class="project-item">
+            <img id="cal" src="attachment_85451091.jpeg">
+            <div class="project-desc">
+                <h3>Cloud Dev Tools</h3>
+                <p>Developer tools featuring live coding and Microsoft Office integration. Efficient protocols for data sharing.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section" id="contact">
+    <h2 class="contact-title">Contact <span class="ser">Me</span></h2>
+    <p class="contact-subtitle">Let’s work together! Fill out the form below and I’ll get back to you.</p>
+    
+    <form class="contact-form">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+    </div>
+</div>make this code to link with navigation bar
